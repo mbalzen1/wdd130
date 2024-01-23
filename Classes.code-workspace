@@ -6,5 +6,8 @@
         {
             "path": "../../Documents/Custom Office Templates/cse110"
         }
-    ]
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "wdd130"
+    }
 }
