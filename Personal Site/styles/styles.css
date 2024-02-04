@@ -1,22 +1,56 @@
+  @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
 body {
-    background-color: lightskyblue;
+    background-color: rgb(64, 77, 84);
+    margin: 0;
+    padding: 0;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: center;
 }
 .nav_link {
-    padding: 10px;
+    padding: 30px;
     font-size: 15px;
-
+    text-decoration: none;
+    text-align: center;
+}
+main {
+    background-color: white;
+    padding: 40px;
 }
 img {
-    width: 300px
+    width: 50%;
 }
 a {
-    color: black
+    color: rgb(246, 245, 245)
+}
+nav a:hover {
+    color: rgb(70, 95, 60);
+    background-color: white;
+    
 }
 
 #main_title {
-    font-size: 4em;
-    color: red;
+    font-size: 2em;
+    color: gray;
+    text-align: center;
+    font-family: Single Day;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+p, h3 {
+    text-align: center;
 }
 #sub_title {
     color: red;
+    text-align: center;
+}
+footer {
+    padding: 20px;
 }
