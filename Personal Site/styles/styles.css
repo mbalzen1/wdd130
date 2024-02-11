@@ -1,8 +1,9 @@
-  @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica&family=Playfair+Display&display=swap');
 body {
-    background-color: rgb(64, 77, 84);
+    background-color: rgb(74, 93, 103);
     margin: 0;
     padding: 0;
+    font-family: Playfair Display
 }
 #content {
     max-width: 1600px;
@@ -23,7 +24,11 @@ main {
     padding: 40px;
 }
 img {
-    width: 50%;
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid black;
+    border-radius: 150px;
 }
 a {
     color: rgb(246, 245, 245)
@@ -33,23 +38,35 @@ nav a:hover {
     background-color: white;
     
 }
-
 #main_title {
-    font-size: 2em;
-    color: gray;
-    text-align: center;
-    font-family: Single Day;
-}
-img {
-    display: block;
+    width: 50%;
     margin: 0 auto;
-}
-p, h3 {
+    padding: 10px;
+    font-size: 50px;
+    color: black;
     text-align: center;
+    font-family: Economica;
+}
+footer p, h3 {
+    text-align: center;
+}
+main p {
+    width: 50%;
+    margin: 50px auto;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 50px;
+    background-color: rgb(74, 93, 103);
+    border: 5px solid black;
+    color: white;
+    border-radius: 50px;
+    box-sizing: border-box;
 }
 #sub_title {
     color: red;
-    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 50px;
 }
 footer {
     padding: 20px;
