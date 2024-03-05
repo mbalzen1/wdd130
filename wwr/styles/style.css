@@ -28,6 +28,8 @@ main section img {
 div.background {
     height: 725px;
     background-color: rgb(67, 65, 65);
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 body {
     background-color: rgb(67, 65, 65);
@@ -190,10 +192,6 @@ footer p a:hover {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
-}
-#background {
-    grid-column: 1/11;
-    grid-row: 4/9;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
