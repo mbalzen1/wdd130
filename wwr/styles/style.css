@@ -1,3 +1,4 @@
+/* Home Page CSS */
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Protest+Revolution&family=Protest+Riot&family=Rock+Salt&display=swap');
 div.content {
     max-width: 1600px;
@@ -124,7 +125,7 @@ footer a:hover {
     color: white;
 }
 footer p {
-    font-size: 1.2em;
+    font-size: 12px;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -193,6 +194,9 @@ footer p a:hover {
     grid-row: 1/2;
     margin-top: 100px;
 }
+
+/* FAQ CSS */
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
