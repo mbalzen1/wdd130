@@ -33,7 +33,7 @@ img {
     transition: transform .5s;
 }
 img:hover {
-    opacity: ;
+    opacity: 0.5;
 }
 a {
     color: rgb(246, 245, 245)
@@ -76,6 +76,7 @@ main p {
 footer {
     padding: 20px;
 }
-@media screen (max max-width: 900px) {
+
+@media (max-width: 900px) {
     
 }
