@@ -46,6 +46,9 @@ header {
     background-color: rgba(31, 99, 48, 0.8);
     display: grid;
     grid-template-columns: 150px auto;
+
+    position: sticky;
+    top: 0px;
 }
 nav {
     display: flex;
