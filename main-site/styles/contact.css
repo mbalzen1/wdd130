@@ -1,0 +1,211 @@
+/* General Styles */
+.content {
+    max-width: 1600px;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(246, 245, 243, 0.8);
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(124, 177, 214, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    color: white;
+    margin: 0;
+}
+
+#btn1 {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(124, 177, 214);
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color: rgb(246, 245, 243, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#btn1:hover {
+    background-color: rgb(246, 245, 243, 0.8);
+}
+.logo {
+    cursor: pointer;
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#nav_links a {
+    transition: all 0.3s ease 0s;
+}
+
+#nav_links a:hover {
+    color: #0088A9;
+}
+
+nav a:hover {
+    background-color: rgb(246, 245, 243, 0.8);
+    color: black;
+    border-radius: 25px;
+}
+
+a {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Contact Us CSS */
+.contact h1 {
+    text-align: center;
+    margin: 100px;
+}
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 600px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 80px;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    padding-right: 5px;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+    padding: 10px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button2 {
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  #btn2 {
+    margin-left: 0.5em;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 40px;
+  }
+
+  #btn2:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  #feedback {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 25px 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color:rgb(124, 177, 214);
+}
+
+footer p {
+    font-size: 12px;
+    padding: 20px;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.social img {
+    width: 70px;
+    height: auto;
+    margin: 0 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
+
+}

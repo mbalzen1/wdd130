@@ -1,6 +1,121 @@
-img {
-    width: 30%
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* General Styles */
+.content {
+    max-width: 1600px;
+    margin: 0;
 }
-footer .social img {
-    width: 10%;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(246, 245, 243, 0.8);
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(124, 177, 214, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    color: white;
+    margin: 0;
+}
+
+button {
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(124, 177, 214);
+    text-decoration: none;
+    padding: 9px 25px;
+    background-color: rgb(246, 245, 243, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(246, 245, 243, 0.8);
+
+}
+.logo {
+    cursor: pointer;
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#nav_links a {
+    transition: all 0.3s ease 0s;
+}
+
+#nav_links a:hover {
+    color: #0088A9;
+}
+
+nav a:hover {
+    background-color: rgb(246, 245, 243, 0.8);
+    color: black;
+    border-radius: 25px;
+}
+
+a {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 25px 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color:rgb(124, 177, 214);
+}
+
+footer p {
+    font-size: 12px;
+    padding: 20px;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.social img {
+    width: 70px;
+    height: auto;
+    margin: 0 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
+
 }

@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10;
+    padding: 30px 10px;
     color: white;
     margin: 0;
 }
@@ -80,16 +80,15 @@ a {
 /* Main Content Styles */
 .home-grid {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 500px 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin: 0;
+    margin: 0 150px;
 }
 .title {
     font-family: Dosis;
     text-align: center;
-    margin: 50px;
+    margin: 25px;
     width: 100%;
-    height: 100%;
     font-size: 25px;
     text-shadow: 0px 0px 5px grey, 0px -5px 5px rgb(124, 177, 214);
 
@@ -97,27 +96,31 @@ a {
     grid-row: 1/2;
 }
 
-.mainimage, .mainimage2 {
+.mainimage, .mainimage2, .chickfila {
     width: 100%;
-    height: 60%;
     border: 5px solid black;
     border-radius: 25px;
 }
 
 .mainimage-container {
     grid-column: 1/4;
-    grid-row: 2/4;
+    grid-row: 2/3;
 }
 
 .mainimage2-container {
     grid-column: 5/8;
-    grid-row: 4/6;
+    grid-row: 3/4;
+}
+
+.chickfila {
+    grid-column: 1/4;
+    grid-row: 4/5;
 }
 
 .main_job {
     width: 100%;
-    height: 75%;
-    margin: 0;
+    height: 60%;
+    margin: 0 auto;
     line-height: 1.5em;
     padding: 50px;
     background-color: rgb(74, 93, 103, 0.8);
@@ -136,7 +139,7 @@ a {
 
 .food_job {
     width: 100%;
-    height: 75%;
+    height: 40%;
     margin: 0;
     font-size: 22px;
     padding: 50px;
@@ -150,6 +153,24 @@ a {
     text-align: left;
 
     grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+.chick_job {
+    width: 100%;
+    height: 40%;
+    margin-top: 100px;
+    padding: 50px;
+    background-color: rgb(74, 93, 103);
+    border: 5px solid black;
+    color: white;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Raleway;
+    box-shadow: 5px 5px 5px black;
+    text-align: left;
+
+    grid-column: 5/8;
     grid-row: 4/5;
 }
 
@@ -159,6 +180,11 @@ a {
 }
 
 .food_job h2 {
+    font-size: 22px;
+    color: rgb(124, 177, 214);
+}
+
+.chick_job h2 {
     font-size: 22px;
     color: rgb(124, 177, 214);
 }
@@ -182,7 +208,7 @@ footer a {
 }
 
 footer p a:hover {
-    color:blue;
+    color:rgb(124, 177, 214);
 }
 
 footer p {
