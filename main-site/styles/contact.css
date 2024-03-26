@@ -75,9 +75,18 @@ a {
 }
 
 /* Contact Us CSS */
+.contact {
+    margin: 100px;
+}
 .contact h1 {
     text-align: center;
     margin: 100px;
+    font-family: Dosis;
+    text-align: center;
+    margin: 25px;
+    width: 100%;
+    font-size: 30px;
+    text-shadow: 0px 0px 5px grey, 0px -5px 5px rgb(124, 177, 214);
 }
 form {
     /* Center the form on the page */
@@ -121,6 +130,7 @@ form {
     /* Match form field borders */
     border: 1px solid #999;
     padding: 10px;
+    border-radius: 30px;
   }
   
   input:focus,
