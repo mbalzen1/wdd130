@@ -76,17 +76,27 @@ a {
 
 /* Contact Us CSS */
 .contact {
-    margin: 100px;
+    margin: 50px;
+}
+
+.hero-img {
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    border-radius: 25px;
 }
 .contact h1 {
     text-align: center;
-    margin: 100px;
     font-family: Dosis;
     text-align: center;
     margin: 25px;
-    width: 100%;
+    width: 75%;
     font-size: 30px;
     text-shadow: 0px 0px 5px grey, 0px -5px 5px rgb(124, 177, 214);
+    z-index: 1;
+    position: absolute;
+    left: 13%;
+    top: 50%;
 }
 form {
     /* Center the form on the page */
@@ -94,8 +104,16 @@ form {
     width: 600px;
     /* Form outline */
     padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
+    position: absolute;
+    left: 30%;
+    top: 75%;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
   }
   
   ul {
